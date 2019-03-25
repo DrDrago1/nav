@@ -1,0 +1,10 @@
+@keyframes background{
+  0%{left: -50vh;top: -50vh}
+    25%{left: -20vh;top: -50vh}
+      50%{left: -20vh;top:-20vh }
+        75%{left: -50vh;top: -20vh}
+          100%{left: -50vh;top: -50vh}
+}
+#bg-deco{
+  animation: background 20s infinite;
+}

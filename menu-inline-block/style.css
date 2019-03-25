@@ -1,0 +1,48 @@
+/*
+MAIN-COLORS
+#37393F - GRAY+BLUIE
+#F6AF95 - SKIN
+#D0DADF - SKYE+DIRTY
+*/
+body{
+  font-family:'Quicksand', sans-serif;
+  /*background-color: #D0DADF;*/
+  background-image: url(8001.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#top{
+  background-color: rgba(55, 57, 63, 0.6);
+
+  text-align: center;
+}
+#top .fa-shopware{
+  font-size: 30px;
+
+}
+#top .main-nav{
+  margin: 0% 23%;
+}
+#top a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  padding:30px 13px;
+
+}
+#top ul,
+#top li,
+#top a{
+  display: inline-block;
+  vertical-align: middle;
+}
+#bg-deco {
+  font-size: 200vh;
+  position: fixed;
+  color: #37393F;
+  /*text-shadow: 0 0 50VH #37393F;*/
+  background-color: RGBA(0,0,0,0.9);
+  opacity: 0.5;
+  PADDING: 60vh;
+
+}
